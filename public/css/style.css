@@ -46,30 +46,36 @@ a:hover {
 /* Header */
 .site-header {
     background: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    padding: 20px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     position: sticky;
     top: 0;
     z-index: 50;
+    padding: 0;
 }
 
-.header-content {
+/* Top row */
+.header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    padding: 16px 0 10px;
+    gap: 16px;
+}
+
+/* Bottom row */
+.header-bottom {
+    border-top: 1px solid #e8f0fe;
+    padding: 8px 0;
 }
 
 .site-branding {
     flex: 1;
-    min-width: 250px;
 }
 
 .site-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .site-title a {
@@ -77,16 +83,13 @@ a:hover {
 }
 
 .site-description {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: #666;
-    margin-top: 5px;
 }
 
 /* Navigation */
 .main-navigation {
-    flex: 1;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -118,14 +121,13 @@ a:hover {
 .nav-menu > li > a {
     display: inline-block;
     font-weight: 600;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     color: #1a73e8;
-    padding: 8px 22px;
-    border-radius: 20px;
+    padding: 7px 18px;
+    border-radius: 6px;
     background: #e8f0fe;
     border: 1.5px solid #c5d8fc;
     transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
-    letter-spacing: 0.2px;
     white-space: nowrap;
 }
 
@@ -640,35 +642,43 @@ a:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-        align-items: flex-start;
+    .header-top {
+        flex-wrap: wrap;
+    }
+
+    .header-cta {
+        width: 100%;
     }
 
     .menu-toggle {
         display: flex;
-        position: absolute;
-        top: 20px;
-        right: 20px;
     }
 
     .main-navigation {
         width: 100%;
-        order: 3;
+        position: relative;
     }
 
     .nav-menu {
         flex-direction: column;
         width: 100%;
         display: none;
+        gap: 6px;
+        padding: 8px 0;
     }
 
     .nav-menu.active {
         display: flex;
     }
 
-    .header-cta {
+    .nav-menu > li {
         width: 100%;
+    }
+
+    .nav-menu > li > a {
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 
     .btn {
