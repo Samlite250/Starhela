@@ -60,7 +60,7 @@ for ($i = 0; $i < $posts_per_page; $i++) {
                 </nav>
 
                 <div class="header-cta">
-                    <a href="https://starhela.com/register.php?ref=Mami250" class="btn btn-primary">Sign Up StarHela</a>
+                    <a href="register.php?ref=Mami250" class="btn btn-primary">Sign Up StarHela</a>
                 </div>
             </div>
         </div>
