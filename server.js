@@ -14,6 +14,13 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
+const postImages = [
+    'post-1.webp','post-2.webp','post-3.webp','post-4.webp',
+    'post-5.webp','post-6.webp','post-7.webp','post-8.webp',
+    'post-9.webp','post-10.webp','post-11.webp','post-12.webp',
+    'post-13.jpeg','post-14.jpeg','post-15.jpeg','post-16.jpeg'
+];
+
 // Generate posts data
 function generatePosts(totalPosts = 330) {
     const posts = [];
@@ -23,7 +30,7 @@ function generatePosts(totalPosts = 330) {
             title: `StarHela - Post #${i}`,
             category: i % 2 === 0 ? 'StarHela' : 'Star Hela',
             excerpt: 'StarHela is a comprehensive digital platform designed to help users earn money through various online activities including watching videos, completing surveys, reading articles, and participating in educational content.',
-            image: `/images/post-${((i % 12) + 1)}.webp`,
+            image: `/images/${postImages[i % postImages.length]}`,
             slug: `starhela-${i}`,
             date: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
             content: `

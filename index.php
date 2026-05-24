@@ -1,4 +1,10 @@
 <?php
+$post_images = [
+    1=>'post-1.webp', 'post-2.webp', 'post-3.webp', 'post-4.webp',
+    'post-5.webp', 'post-6.webp', 'post-7.webp', 'post-8.webp',
+    'post-9.webp', 'post-10.webp', 'post-11.webp', 'post-12.webp',
+    'post-13.jpeg', 'post-14.jpeg', 'post-15.jpeg', 'post-16.jpeg'
+];
 // Pagination setup
 $posts_per_page = 10;
 $current_page = isset($_GET['page']) ? max(1, intval($_GET['page'])) : 1;
@@ -14,7 +20,7 @@ for ($i = $total_posts; $i > 0; $i--) {
         'title' => 'StarHela - Post #' . $i,
         'category' => ($i % 2 == 0) ? 'StarHela' : 'Star Hela',
         'excerpt' => 'StarHela is a comprehensive digital platform designed to help users earn money through various online activities including watching videos, completing surveys, reading articles, and participating in educational content.',
-        'image' => 'assets/images/post-' . (($i % 12) + 1) . '.webp',
+        'image' => 'assets/images/' . $post_images[($i % 16) + 1],
         'slug' => 'starhela-' . $i
     ];
 }
