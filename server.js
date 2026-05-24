@@ -24,8 +24,44 @@ const postImages = [
 // Generate posts data
 function generatePosts(totalPosts = 330) {
     const posts = [];
-    const firstExcerpt = 'StarHela is an online platform built to help users earn money through simple digital activities…';
-    const firstContent = `<p>StarHela is an online platform built to help users earn money through simple digital activities and interactive content. It brings together several earning methods, including watching short-form videos on TikTok and YouTube, viewing social media reels, clicking advertisements, writing blog articles, answering trivia questions, and playing online games such as chess and draughts. Users can also grow their income through referrals, earning commissions for inviting new members, along with bonus features like free spins and welcome rewards. Beyond entertainment-based earnings, StarHela offers learning resources such as Forex tutorials and e-books to support users in developing financial and trading knowledge. With its user-friendly interface and mobile accessibility, StarHela is designed to turn everyday online engagement into flexible earning opportunities.</p>`;
+    const customPosts = {
+        330: {
+            excerpt: 'StarHela is an online platform built to help users earn money through simple digital activities…',
+            content: '<p>StarHela is an online platform built to help users earn money through simple digital activities and interactive content. It brings together several earning methods, including watching short-form videos on TikTok and YouTube, viewing social media reels, clicking advertisements, writing blog articles, answering trivia questions, and playing online games such as chess and draughts. Users can also grow their income through referrals, earning commissions for inviting new members, along with bonus features like free spins and welcome rewards. Beyond entertainment-based earnings, StarHela offers learning resources such as Forex tutorials and e-books to support users in developing financial and trading knowledge. With its user-friendly interface and mobile accessibility, StarHela is designed to turn everyday online engagement into flexible earning opportunities.</p>'
+        },
+        329: {
+            excerpt: 'StarHela is a digital earning platform that enables users to generate income through a mix…',
+            content: '<p>StarHela is a digital earning platform that enables users to generate income through a mix of simple online tasks and interactive activities. It allows members to earn by watching short videos on TikTok and YouTube, engaging with social media reels, clicking paid ads, writing blog posts, answering trivia questions, and playing strategy games such as chess and draughts. The platform also includes a referral program where users earn commissions by inviting others, along with bonus features like free spins and welcome rewards that help users start earning quickly. In addition, StarHela provides educational materials such as Forex training courses and e-books to support users in building financial knowledge. With its straightforward dashboard and mobile access, it is designed to make online earning flexible and accessible from anywhere.</p>'
+        },
+        328: {
+            excerpt: 'StarHela is an online income platform that gives users the opportunity to earn money by…',
+            content: '<p>StarHela is an online income platform that gives users the opportunity to earn money by completing a range of simple digital tasks and engaging activities. It combines entertainment and earning through features such as watching short videos on TikTok and YouTube, viewing social media reels, clicking advertisements, writing blog content, answering trivia questions, and playing online games like chess and draughts. Users can also earn through a referral system that pays commissions for inviting new members, along with added benefits like welcome bonuses and free spins to boost initial earnings. Beyond task-based rewards, StarHela also provides educational resources including Forex tutorials and e-books to help users develop financial skills. With its easy navigation and mobile-friendly design, the platform is designed to make online earning accessible, flexible, and engaging for everyday users.</p>'
+        },
+        327: {
+            excerpt: 'StarHela is a multifunctional online earning platform that allows users to make money by performing…',
+            content: '<p>StarHela is a multifunctional online earning platform that allows users to make money by performing simple digital tasks and engaging with online content. It offers a variety of earning activities such as watching TikTok and YouTube videos, interacting with social media reels, clicking short advertisements, writing blog posts, answering trivia questions, and participating in online games like chess and draughts. Users can also increase their earnings through referral programs, where inviting others earns commission rewards, as well as bonuses like free spins and welcome incentives. In addition to earning features, StarHela provides educational resources such as Forex training courses and e-books aimed at improving users\' financial knowledge. With its accessible dashboard and mobile-friendly design, StarHela is built to help users convert their time online into consistent earning opportunities.</p>'
+        },
+        326: {
+            excerpt: 'StarHela is an online rewards system that lets users earn money by completing a variety…',
+            content: '<p>StarHela is an online rewards system that lets users earn money by completing a variety of simple digital tasks and engaging in interactive content. The platform includes activities such as watching short-form videos on TikTok and YouTube, viewing social media reels, clicking advertisements, writing articles, answering trivia questions, and playing competitive games like chess and draughts. It also provides earning opportunities through referrals, where users can earn commissions by inviting others to join, as well as bonuses like free spins and registration rewards that enhance early earnings. Alongside entertainment-based tasks, StarHela offers educational materials including Forex tutorials and e-books to help users build financial literacy and online income skills. With its easy-to-use dashboard and mobile access, StarHela is designed to give users a flexible way to turn everyday online engagement into earnings.</p>'
+        },
+        325: {
+            excerpt: 'StarHela is a digital rewards and income-earning platform that allows users to generate money through…',
+            content: '<p>StarHela is a digital rewards and income-earning platform that allows users to generate money through everyday online activities and interactive tasks. It combines entertainment and earning by offering opportunities such as watching short videos on TikTok, YouTube, Instagram, and Facebook, clicking paid ads, participating in trivia quizzes, writing blog content, and playing online games like chess and draughts. The platform also includes a referral program with commission rewards, along with bonuses such as free spins and welcome incentives that help new users start earning quickly. Beyond task-based earnings, StarHela provides educational content like Forex trading tutorials and e-books to support users in developing financial knowledge. With its simple dashboard, mobile accessibility, and wide range of earning options, StarHela is designed to make online earning flexible, engaging, and accessible to users worldwide.</p>'
+        },
+        324: {
+            excerpt: 'StarHela is an online rewards platform that enables users to earn income by completing easy…',
+            content: '<p>StarHela is an online rewards platform that enables users to earn income by completing easy digital tasks and engaging in interactive online activities. It brings together multiple earning options in one place, including watching short videos on TikTok and YouTube, clicking advertisements, writing blog posts, answering trivia questions, and playing competitive games like chess and draughts. Users can also take advantage of referral commissions, free spins, and welcome bonuses that increase their earning potential from the moment they join. In addition, the platform offers educational resources such as Forex trading lessons and e-books to help users build long-term financial skills. With its simple interface and mobile-friendly design, StarHela is built to help users turn everyday online activity into a consistent source of extra income.</p>'
+        },
+        323: {
+            excerpt: 'StarHela is an innovative digital platform that allows users to earn money online through a…',
+            content: '<p>StarHela is an innovative digital platform that allows users to earn money online through a variety of simple and engaging activities. From watching TikTok and YouTube videos to clicking ads, blogging, playing games, and participating in trivia challenges, StarHela provides multiple ways for users to generate extra income from their smartphones or computers. The platform also features exciting rewards such as free spins, welcome bonuses, referral commissions, and competitive gaming opportunities. Beyond entertainment and task-based earnings, StarHela empowers users with free Forex training, premium tutorials, and educational e-books designed to improve financial knowledge and online earning skills. With its user-friendly dashboard, mobile accessibility, and diverse earning options, StarHela creates a convenient and enjoyable experience for anyone looking to turn their free time into income.</p>'
+        },
+        322: {
+            excerpt: 'StarHela is a dynamic online earning platform designed to help users make money through simple…',
+            content: '<p>StarHela is a dynamic online earning platform designed to help users make money through simple digital activities and interactive entertainment. The platform offers multiple income opportunities, including watching TikTok, YouTube, Instagram, and Facebook videos, clicking paid advertisements, writing blogs, answering trivia questions, playing online games such as chess and draughts, and participating in reward spins. Users can also benefit from affiliate marketing through a generous 55% referral commission system, welcome bonuses, free spins, and top winner rewards. In addition to entertainment-based earnings, StarHela provides free Forex trading classes, premium tutorials, and educational e-books to help users build valuable financial skills. Accessible through both its website and Android app, StarHela aims to make online earning simple, fun, and beginner-friendly by allowing users to earn anytime and anywhere directly from their dashboard.</p>'
+        }
+    };
 
     const defaultExcerpt = 'StarHela is a comprehensive digital platform designed to help users earn money through various online activities including watching videos, completing surveys, reading articles, and participating in educational content.';
     const defaultContent = `
@@ -72,11 +108,11 @@ function generatePosts(totalPosts = 330) {
             id: i,
             title: `Starhela`,
             category: i % 2 === 0 ? 'StarHela' : 'Star Hela',
-            excerpt: i === totalPosts ? firstExcerpt : defaultExcerpt,
+            excerpt: customPosts[i] ? customPosts[i].excerpt : defaultExcerpt,
             image: `/images/${postImages[i % postImages.length]}`,
             slug: `starhela-${i}`,
             date: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
-            content: i === totalPosts ? firstContent : defaultContent
+            content: customPosts[i] ? customPosts[i].content : defaultContent
         });
     }
     return posts;

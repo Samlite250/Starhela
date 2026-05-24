@@ -19,9 +19,17 @@ for ($i = $total_posts; $i > 0; $i--) {
         'id' => $i,
         'title' => 'Starhela',
         'category' => ($i % 2 == 0) ? 'StarHela' : 'Star Hela',
-        'excerpt' => ($i === $total_posts)
-            ? 'StarHela is an online platform built to help users earn money through simple digital activities…'
-            : 'StarHela is a comprehensive digital platform designed to help users earn money through various online activities including watching videos, completing surveys, reading articles, and participating in educational content.',
+        'excerpt' => [
+            330 => 'StarHela is an online platform built to help users earn money through simple digital activities…',
+            329 => 'StarHela is a digital earning platform that enables users to generate income through a mix…',
+            328 => 'StarHela is an online income platform that gives users the opportunity to earn money by…',
+            327 => 'StarHela is a multifunctional online earning platform that allows users to make money by performing…',
+            326 => 'StarHela is an online rewards system that lets users earn money by completing a variety…',
+            325 => 'StarHela is a digital rewards and income-earning platform that allows users to generate money through…',
+            324 => 'StarHela is an online rewards platform that enables users to earn income by completing easy…',
+            323 => 'StarHela is an innovative digital platform that allows users to earn money online through a…',
+            322 => 'StarHela is a dynamic online earning platform designed to help users make money through simple…',
+        ][$i] ?? 'StarHela is a comprehensive digital platform designed to help users earn money through various online activities including watching videos, completing surveys, reading articles, and participating in educational content.',
         'image' => 'assets/images/' . $post_images[($i % 16) + 1],
         'slug' => 'starhela-' . $i
     ];
