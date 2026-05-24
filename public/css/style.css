@@ -103,7 +103,7 @@ a:hover {
     background: #e8f0fe;
     border: 1.5px solid #c5d8fc;
     border-radius: 6px;
-    padding: 7px 24px;
+    padding: 7px 44px;
     text-align: center;
     text-decoration: none;
     transition: background 0.2s ease, color 0.2s ease;
@@ -125,7 +125,7 @@ a:hover {
     background: #16a34a;
     border: 1.5px solid #15803d;
     border-radius: 6px;
-    padding: 7px 24px;
+    padding: 7px 44px;
     text-align: center;
     text-decoration: none;
     margin-left: auto;
