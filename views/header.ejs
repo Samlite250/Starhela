@@ -15,7 +15,7 @@
     <!-- Header -->
     <header class="site-header">
         <div class="container">
-            <!-- Top row: branding + sign up -->
+            <!-- Top row: branding + sign up + hamburger -->
             <div class="header-top">
                 <div class="site-branding">
                     <h1 class="site-title"><a href="/">StarHela</a></h1>
@@ -24,16 +24,16 @@
                 <div class="header-cta">
                     <a href="https://starhela.com/register.php?ref=Mami250" class="btn btn-primary">Sign Up StarHela</a>
                 </div>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
             <!-- Bottom row: nav links -->
-            <div class="header-bottom">
+            <div class="header-bottom" id="headerBottom">
                 <nav class="main-navigation">
-                    <button class="menu-toggle" aria-label="Toggle menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <ul class="nav-menu">
+                    <ul class="nav-menu" id="navMenu">
                         <li><a href="/" class="<%= typeof page !== 'undefined' && page === 'home' ? 'active' : '' %>">Home</a></li>
                         <li><a href="#" id="activationsBtn">Activations</a></li>
                         <li class="country-dropdown">

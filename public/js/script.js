@@ -1,23 +1,21 @@
 // Mobile Menu Toggle
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.querySelector('.menu-toggle');
-    const navMenu = document.querySelector('.nav-menu');
+    const headerBottom = document.getElementById('headerBottom');
 
-    if (menuToggle) {
+    if (menuToggle && headerBottom) {
         menuToggle.addEventListener('click', function() {
-            navMenu.classList.toggle('active');
+            headerBottom.classList.toggle('active');
             menuToggle.classList.toggle('active');
         });
     }
 
     // Close menu when clicking outside
     document.addEventListener('click', function(event) {
-        if (navMenu && navMenu.classList.contains('active')) {
-            if (!event.target.closest('.main-navigation')) {
-                navMenu.classList.remove('active');
-                if (menuToggle) {
-                    menuToggle.classList.remove('active');
-                }
+        if (headerBottom && headerBottom.classList.contains('active')) {
+            if (!event.target.closest('.site-header')) {
+                headerBottom.classList.remove('active');
+                if (menuToggle) menuToggle.classList.remove('active');
             }
         }
     });

@@ -91,9 +91,7 @@ a:hover {
 .main-navigation {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     width: 100%;
-    position: relative;
 }
 
 .menu-toggle {
@@ -106,7 +104,7 @@ a:hover {
     justify-content: center;
     gap: 5px;
     padding: 7px 10px;
-    margin-left: auto;
+    flex-shrink: 0;
 }
 
 .menu-toggle span {
@@ -662,38 +660,34 @@ a:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .header-top {
-        flex-wrap: wrap;
-    }
-
-    .header-cta {
-        width: 100%;
-    }
-
-    .header-bottom {
-        position: relative;
-    }
-
+    /* Show hamburger in top-right of header-top row */
     .menu-toggle {
         display: flex;
     }
 
+    /* Hide Sign Up button and bottom nav row by default on mobile */
+    .header-cta {
+        display: none;
+    }
+
+    .header-bottom {
+        display: none;
+    }
+
+    /* When nav is open, show bottom row */
+    .header-bottom.active {
+        display: block;
+    }
+
     .main-navigation {
         width: 100%;
-        flex-wrap: wrap;
     }
 
     .nav-menu {
         flex-direction: column;
         width: 100%;
-        display: none;
         gap: 6px;
-        padding: 10px 0 6px;
-        order: 2;
-    }
-
-    .nav-menu.active {
-        display: flex;
+        padding: 6px 0;
     }
 
     .nav-menu > li {
@@ -704,11 +698,6 @@ a:hover {
         display: block;
         width: 100%;
         text-align: center;
-    }
-
-    .menu-toggle {
-        order: 1;
-        margin-left: auto;
     }
 
     .btn {
