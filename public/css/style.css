@@ -98,7 +98,7 @@ a:hover {
     background: #e8f0fe;
     border: 1.5px solid #c5d8fc;
     border-radius: 6px;
-    padding: 6px 18px;
+    padding: 8px 36px;
     text-decoration: none;
     transition: background 0.2s ease, color 0.2s ease;
 }
