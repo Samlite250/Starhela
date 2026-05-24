@@ -34,7 +34,7 @@ $posts = array_slice($all_posts, $offset, $posts_per_page);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarHela - Earn Money Through Simple Digital Activities</title>
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/post-1.webp" type="image/webp">
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="description" content="StarHela offers TikTok & YouTube videos, ad clicks, blogging, Surveys, Forex tutorials, e‑books, chess & draughts to boost your earnings.">
 </head>

@@ -35,7 +35,7 @@ for ($i = 0; $i < $posts_per_page; $i++) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Category: <?php echo $category; ?> - StarHela</title>
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/post-1.webp" type="image/webp">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
