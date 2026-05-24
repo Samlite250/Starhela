@@ -1,0 +1,93 @@
+<%
+    pageTitle = 'Category: ' + category + ' - StarHela';
+    page = 'category';
+%>
+<%- include('header') %>
+
+    <!-- Main Content -->
+    <main id="main-content" class="site-main">
+        <div class="container">
+            <div class="content-wrapper">
+                <div style="margin-bottom: 30px;">
+                    <h2 style="color: #1f2937; font-size: 2rem;">Category: <%= category %></h2>
+                    <p style="color: #666; margin-top: 10px;">Showing posts from <%= category %> category</p>
+                </div>
+
+                <!-- Posts Grid -->
+                <div class="posts-grid">
+                    <% posts.forEach(post => { %>
+                    <article class="post-card">
+                        <div class="post-image">
+                            <a href="/post/<%= post.id %>">
+                                <img src="<%= post.image %>" alt="<%= post.title %>" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-category">
+                                <a href="/category/<%= encodeURIComponent(post.category) %>"><%= post.category %></a>
+                            </div>
+                            <h2 class="post-title">
+                                <a href="/post/<%= post.id %>"><%= post.title %></a>
+                            </h2>
+                            <div class="post-excerpt">
+                                <p><%= post.excerpt %></p>
+                            </div>
+                            <a href="/post/<%= post.id %>" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                    <% }); %>
+                </div>
+
+                <!-- Pagination -->
+                <nav class="pagination" aria-label="Category pagination">
+                    <%
+                    const baseUrl = '/category/' + encodeURIComponent(category);
+
+                    if (currentPage > 1) {
+                    %>
+                        <a href="<%= baseUrl %>?page=1">1</a>
+                    <% } else { %>
+                        <span class="current">1</span>
+                    <% } %>
+
+                    <% if (totalPages > 1) {
+                        if (currentPage === 2) { %>
+                            <span class="current">2</span>
+                        <% } else { %>
+                            <a href="<%= baseUrl %>?page=2">2</a>
+                        <% }
+                    } %>
+
+                    <% if (totalPages > 2) {
+                        if (currentPage === 3) { %>
+                            <span class="current">3</span>
+                        <% } else { %>
+                            <a href="<%= baseUrl %>?page=3">3</a>
+                        <% }
+                    } %>
+
+                    <% if (currentPage > 4 || (currentPage <= 4 && totalPages > 4)) { %>
+                        <span class="dots">…</span>
+                    <% } %>
+
+                    <% if (currentPage > 3 && currentPage < totalPages) { %>
+                        <span class="current"><%= currentPage %></span>
+                    <% } %>
+
+                    <% if (totalPages > 3) {
+                        if (currentPage === totalPages) { %>
+                            <span class="current"><%= totalPages %></span>
+                        <% } else { %>
+                            <a href="<%= baseUrl %>?page=<%= totalPages %>"><%= totalPages %></a>
+                        <% }
+                    } %>
+
+                    <% if (currentPage < totalPages) { %>
+                        <a href="<%= baseUrl %>?page=<%= currentPage + 1 %>" class="next-page">Next page</a>
+                    <% } %>
+                </nav>
+            </div>
+        </div>
+    </main>
+
+<%- include('footer') %>

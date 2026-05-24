@@ -1,0 +1,282 @@
+<%
+    pageTitle = 'StarHela ' + countryName + ' - Earn Money Online';
+    page = 'country';
+%>
+<%- include('header') %>
+
+    <!-- Main Content -->
+    <main id="main-content" class="site-main">
+        <div class="container">
+            <!-- Country Header -->
+            <div class="country-header">
+                <div class="country-flag"><%= countryFlag %></div>
+                <h1 class="country-title">StarHela <%= countryName %></h1>
+                <p class="country-subtitle">Start earning money in <%= countryName %> through simple digital activities</p>
+            </div>
+
+            <!-- Country Info Section -->
+            <div class="country-info-section">
+                <div class="info-card">
+                    <h2>About StarHela <%= countryName %></h2>
+                    <div class="country-content">
+                        <%- countryInfo.description %>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h3>📊 Earning Opportunities in <%= countryName %></h3>
+                    <ul class="earning-list">
+                        <% countryInfo.opportunities.forEach(opportunity => { %>
+                            <li><%= opportunity %></li>
+                        <% }); %>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h3>💰 Payment Methods</h3>
+                    <ul class="payment-list">
+                        <% countryInfo.paymentMethods.forEach(method => { %>
+                            <li><%= method %></li>
+                        <% }); %>
+                    </ul>
+                </div>
+
+                <div class="info-card highlight-card">
+                    <h3>🎯 Why Join StarHela <%= countryName %>?</h3>
+                    <ul class="benefits-list">
+                        <% countryInfo.benefits.forEach(benefit => { %>
+                            <li><%= benefit %></li>
+                        <% }); %>
+                    </ul>
+                </div>
+
+                <!-- CTA Section -->
+                <div class="country-cta">
+                    <h2>Ready to Start Earning in <%= countryName %>?</h2>
+                    <p>Join thousands of <%= countryName %> users already earning with StarHela</p>
+                    <a href="/register?ref=samkiliswa&country=<%= countryCode %>" class="btn btn-primary btn-large">
+                        Sign Up Now - <%= countryName %>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Recent Posts -->
+            <div class="recent-posts-section">
+                <h2>Latest from StarHela <%= countryName %></h2>
+                <div class="posts-grid">
+                    <% posts.forEach(post => { %>
+                    <article class="post-card">
+                        <div class="post-image">
+                            <a href="/post/<%= post.id %>">
+                                <img src="<%= post.image %>" alt="<%= post.title %>" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-category">
+                                <a href="/category/<%= encodeURIComponent(post.category) %>"><%= post.category %></a>
+                            </div>
+                            <h3 class="post-title">
+                                <a href="/post/<%= post.id %>"><%= post.title %></a>
+                            </h3>
+                            <div class="post-excerpt">
+                                <p><%= post.excerpt %></p>
+                            </div>
+                            <a href="/post/<%= post.id %>" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                    <% }); %>
+                </div>
+                <div class="view-all-posts">
+                    <a href="/" class="btn btn-secondary">View All Posts</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<%- include('footer') %>
+
+<style>
+    .country-header {
+        text-align: center;
+        padding: 60px 20px 40px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 12px;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+
+    .country-flag {
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+
+    .country-title {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    .country-subtitle {
+        font-size: 1.1rem;
+        opacity: 0.95;
+    }
+
+    .country-info-section {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .info-card {
+        background: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        margin-bottom: 25px;
+    }
+
+    .info-card h2 {
+        color: #1f2937;
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+    }
+
+    .info-card h3 {
+        color: #2563eb;
+        margin-bottom: 15px;
+        font-size: 1.4rem;
+    }
+
+    .country-content {
+        line-height: 1.8;
+        color: #4b5563;
+    }
+
+    .country-content p {
+        margin-bottom: 15px;
+    }
+
+    .earning-list,
+    .payment-list,
+    .benefits-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .earning-list li,
+    .payment-list li,
+    .benefits-list li {
+        padding: 12px 0 12px 35px;
+        position: relative;
+        color: #4b5563;
+        border-bottom: 1px solid #f3f4f6;
+    }
+
+    .earning-list li:before,
+    .payment-list li:before,
+    .benefits-list li:before {
+        content: '✓';
+        position: absolute;
+        left: 0;
+        color: #10b981;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .earning-list li:last-child,
+    .payment-list li:last-child,
+    .benefits-list li:last-child {
+        border-bottom: none;
+    }
+
+    .highlight-card {
+        background: linear-gradient(135deg, #dbeafe 0%, #e0e7ff 100%);
+        border: 2px solid #bfdbfe;
+    }
+
+    .country-cta {
+        text-align: center;
+        padding: 50px 30px;
+        background: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);
+        border-radius: 12px;
+        color: #fff;
+        margin: 40px 0;
+    }
+
+    .country-cta h2 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .country-cta p {
+        font-size: 1.1rem;
+        margin-bottom: 25px;
+        opacity: 0.95;
+    }
+
+    .btn-large {
+        padding: 16px 40px;
+        font-size: 1.2rem;
+    }
+
+    .btn-secondary {
+        background: #6b7280;
+        color: #fff;
+    }
+
+    .btn-secondary:hover {
+        background: #4b5563;
+    }
+
+    .recent-posts-section {
+        margin-top: 60px;
+    }
+
+    .recent-posts-section h2 {
+        text-align: center;
+        font-size: 2rem;
+        color: #1f2937;
+        margin-bottom: 40px;
+    }
+
+    .view-all-posts {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+        .country-header {
+            padding: 40px 20px 30px;
+        }
+
+        .country-flag {
+            font-size: 3rem;
+        }
+
+        .country-title {
+            font-size: 1.8rem;
+        }
+
+        .country-subtitle {
+            font-size: 1rem;
+        }
+
+        .info-card {
+            padding: 20px;
+        }
+
+        .info-card h2 {
+            font-size: 1.5rem;
+        }
+
+        .info-card h3 {
+            font-size: 1.2rem;
+        }
+
+        .country-cta {
+            padding: 35px 20px;
+        }
+
+        .country-cta h2 {
+            font-size: 1.5rem;
+        }
+    }
+</style>

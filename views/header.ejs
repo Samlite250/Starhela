@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= typeof pageTitle !== 'undefined' ? pageTitle : 'StarHela - Earn Money Through Simple Digital Activities' %></title>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="description" content="StarHela offers TikTok & YouTube videos, ad clicks, blogging, Surveys, Forex tutorials, e‑books, chess & draughts to boost your earnings.">
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="site-branding">
+                    <h1 class="site-title"><a href="/">StarHela</a></h1>
+                    <p class="site-description">StarHela offers TikTok & YouTube videos, ad clicks, blogging, Surveys, Forex tutorials, e‑books, chess & draughts to boost your earnings.</p>
+                </div>
+
+                <nav class="main-navigation">
+                    <button class="menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="/" class="<%= typeof page !== 'undefined' && page === 'home' ? 'active' : '' %>">Home</a></li>
+                        <li class="country-dropdown">
+                            <a href="#" class="countries-toggle">
+                                Countries
+                                <span class="dropdown-arrow">▼</span>
+                            </a>
+                            <ul class="country-submenu">
+                                <li><a href="/country/rwanda">🇷🇼 Rwanda</a></li>
+                                <li><a href="/country/burundi">🇧🇮 Burundi</a></li>
+                                <li><a href="/country/uganda">🇺🇬 Uganda</a></li>
+                                <li><a href="/country/ghana">🇬🇭 Ghana</a></li>
+                                <li><a href="/country/cameroon">🇨🇲 Cameroon</a></li>
+                                <li><a href="/country/kenya">🇰🇪 Kenya</a></li>
+                                <li><a href="/country/botswana">🇧🇼 Botswana</a></li>
+                                <li><a href="/country/malawi">🇲🇼 Malawi</a></li>
+                                <li><a href="/country/zambia">🇿🇲 Zambia</a></li>
+                                <li><a href="/country/nigeria">🇳🇬 Nigeria</a></li>
+                                <li><a href="/country/tanzania">🇹🇿 Tanzania</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header-cta">
+                    <a href="/register?ref=samkiliswa" class="btn btn-primary">Sign Up StarHela</a>
+                </div>
+            </div>
+        </div>
+    </header>
