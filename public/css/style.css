@@ -118,23 +118,25 @@ a:hover {
     font-weight: 600;
     font-size: 0.95rem;
     color: #1a73e8;
-    padding: 6px 4px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    background: #e8f0fe;
     border-bottom: 2px solid transparent;
-    border-radius: 0;
-    transition: color 0.2s ease, border-color 0.2s ease;
+    transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
     letter-spacing: 0.2px;
+    white-space: nowrap;
 }
 
 .nav-menu li a:hover {
     color: #0d47a1;
+    background: #d2e3fc;
     border-bottom-color: #1a73e8;
-    background: none;
 }
 
 .nav-menu li a.active {
     color: #0d47a1;
+    background: #d2e3fc;
     border-bottom-color: #1a73e8;
-    background: none;
 }
 
 .countries-toggle,
