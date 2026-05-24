@@ -17,7 +17,7 @@ $all_posts = [];
 for ($i = $total_posts; $i > 0; $i--) {
     $all_posts[] = [
         'id' => $i,
-        'title' => 'StarHela - Post #' . $i,
+        'title' => 'Starhela',
         'category' => ($i % 2 == 0) ? 'StarHela' : 'Star Hela',
         'excerpt' => 'StarHela is a comprehensive digital platform designed to help users earn money through various online activities including watching videos, completing surveys, reading articles, and participating in educational content.',
         'image' => 'assets/images/' . $post_images[($i % 16) + 1],

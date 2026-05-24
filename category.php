@@ -21,7 +21,7 @@ for ($i = 0; $i < $posts_per_page; $i++) {
     if ($post_num > 0) {
         $posts[] = [
             'id' => $post_num * 2 + ($category === 'StarHela' ? 0 : 1),
-            'title' => 'StarHela - Post #' . ($post_num * 2 + ($category === 'StarHela' ? 0 : 1)),
+            'title' => 'Starhela',
             'category' => $category,
             'excerpt' => 'StarHela is a comprehensive digital platform designed to help users earn money through various online activities including watching videos, completing surveys, reading articles, and participating in educational content.',
             'image' => 'assets/images/' . $post_images[($post_num % 16) + 1],

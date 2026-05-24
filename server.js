@@ -27,7 +27,7 @@ function generatePosts(totalPosts = 330) {
     for (let i = totalPosts; i > 0; i--) {
         posts.push({
             id: i,
-            title: `StarHela - Post #${i}`,
+            title: `Starhela`,
             category: i % 2 === 0 ? 'StarHela' : 'Star Hela',
             excerpt: 'StarHela is a comprehensive digital platform designed to help users earn money through various online activities including watching videos, completing surveys, reading articles, and participating in educational content.',
             image: `/images/${postImages[i % postImages.length]}`,

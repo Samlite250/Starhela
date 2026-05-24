@@ -10,7 +10,7 @@ $post_id = isset($_GET['id']) ? intval($_GET['id']) : 1;
 // Sample post data
 $post = [
     'id' => $post_id,
-    'title' => 'StarHela - Post #' . $post_id,
+    'title' => 'Starhela',
     'category' => ($post_id % 2 == 0) ? 'StarHela' : 'Star Hela',
     'image' => 'assets/images/' . $post_images[($post_id % 16) + 1],
     'date' => date('F j, Y'),
