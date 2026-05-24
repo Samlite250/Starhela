@@ -110,21 +110,38 @@ a:hover {
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 8px;
     align-items: center;
 }
 
 .nav-menu li a {
-    font-weight: 500;
-    color: #333;
-    padding: 8px 16px;
-    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #1a73e8;
+    padding: 6px 4px;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    transition: color 0.2s ease, border-color 0.2s ease;
+    letter-spacing: 0.2px;
 }
 
-.nav-menu li a:hover,
+.nav-menu li a:hover {
+    color: #0d47a1;
+    border-bottom-color: #1a73e8;
+    background: none;
+}
+
 .nav-menu li a.active {
-    background: #f0f0f0;
-    color: #2563eb;
+    color: #0d47a1;
+    border-bottom-color: #1a73e8;
+    background: none;
+}
+
+.countries-toggle,
+#activationsBtn {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #1a73e8 !important;
 }
 
 /* Country Dropdown */
@@ -155,13 +172,14 @@ a:hover {
     top: calc(100% + 8px);
     left: 0;
     background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    min-width: 200px;
-    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    min-width: 210px;
+    padding: 8px 0;
     z-index: 100;
     transition: opacity 0.2s ease, visibility 0.2s ease;
     transition-delay: 0.25s;
+    border-top: 3px solid #1a73e8;
 }
 
 /* invisible bridge fills the 8px gap so cursor can reach the submenu */
@@ -188,14 +206,18 @@ a:hover {
 .country-submenu li a {
     display: block;
     padding: 10px 20px;
-    color: #333;
-    transition: background 0.2s ease;
+    color: #1f2937;
+    font-weight: 500;
+    font-size: 0.93rem;
+    transition: background 0.15s ease, color 0.15s ease;
     border-radius: 0;
+    border-left: 3px solid transparent;
 }
 
 .country-submenu li a:hover {
-    background: #f0f7ff;
-    color: #2563eb;
+    background: #e8f0fe;
+    color: #1a73e8;
+    border-left-color: #1a73e8;
 }
 
 /* Header CTA */
