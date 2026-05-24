@@ -18,7 +18,7 @@ for ($i = 0; $i < $posts_per_page; $i++) {
             'title' => 'StarHela - Post #' . ($post_num * 2 + ($category === 'StarHela' ? 0 : 1)),
             'category' => $category,
             'excerpt' => 'StarHela is a comprehensive digital platform designed to help users earn money through various online activities including watching videos, completing surveys, reading articles, and participating in educational content.',
-            'image' => 'assets/images/post-' . (($post_num % 10) + 1) . '.svg',
+            'image' => 'assets/images/post-' . (($post_num % 12) + 1) . '.webp',
         ];
     }
 }

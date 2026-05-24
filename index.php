@@ -14,7 +14,7 @@ for ($i = $total_posts; $i > 0; $i--) {
         'title' => 'StarHela - Post #' . $i,
         'category' => ($i % 2 == 0) ? 'StarHela' : 'Star Hela',
         'excerpt' => 'StarHela is a comprehensive digital platform designed to help users earn money through various online activities including watching videos, completing surveys, reading articles, and participating in educational content.',
-        'image' => 'assets/images/post-' . (($i % 10) + 1) . '.svg',
+        'image' => 'assets/images/post-' . (($i % 12) + 1) . '.webp',
         'slug' => 'starhela-' . $i
     ];
 }

@@ -6,7 +6,7 @@ $post = [
     'id' => $post_id,
     'title' => 'StarHela - Post #' . $post_id,
     'category' => ($post_id % 2 == 0) ? 'StarHela' : 'Star Hela',
-    'image' => 'assets/images/post-' . (($post_id % 10) + 1) . '.svg',
+    'image' => 'assets/images/post-' . (($post_id % 12) + 1) . '.webp',
     'date' => date('F j, Y'),
     'content' => '
         <p>StarHela is a comprehensive digital platform designed to help users earn money through various online activities. Our platform offers multiple ways to generate income while engaging with content you enjoy.</p>
