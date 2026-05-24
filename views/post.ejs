@@ -30,19 +30,19 @@
                 <div class="post-navigation">
                     <% if (post.id > 1) { %>
                     <div class="nav-link">
-                        <a href="/post/<%= post.id - 1 %>" class="btn">← Previous Post</a>
+                        <a href="/post/<%= post.id - 1 %>" class="btn">← Previous</a>
                     </div>
                     <% } %>
 
                     <% if (post.id < 330) { %>
                     <div class="nav-link" style="text-align: right;">
-                        <a href="/post/<%= post.id + 1 %>" class="btn">Next Post →</a>
+                        <a href="/post/<%= post.id + 1 %>" class="btn">Next →</a>
                     </div>
                     <% } %>
                 </div>
 
                 <div class="back-to-home">
-                    <a href="/">← Back to All Posts</a>
+                    <a href="/">← Back</a>
                 </div>
             </article>
         </div>

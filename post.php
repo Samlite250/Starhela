@@ -226,19 +226,19 @@ $post = [
                 <div class="post-navigation">
                     <?php if ($post_id > 1): ?>
                     <div class="nav-link">
-                        <a href="post.php?id=<?php echo $post_id - 1; ?>" class="btn">← Previous Post</a>
+                        <a href="post.php?id=<?php echo $post_id - 1; ?>" class="btn">← Previous</a>
                     </div>
                     <?php endif; ?>
 
                     <?php if ($post_id < 330): ?>
                     <div class="nav-link" style="text-align: right;">
-                        <a href="post.php?id=<?php echo $post_id + 1; ?>" class="btn">Next Post →</a>
+                        <a href="post.php?id=<?php echo $post_id + 1; ?>" class="btn">Next →</a>
                     </div>
                     <?php endif; ?>
                 </div>
 
                 <div class="back-to-home">
-                    <a href="index.php">← Back to All Posts</a>
+                    <a href="index.php">← Back</a>
                 </div>
             </article>
         </div>
