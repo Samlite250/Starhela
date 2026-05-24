@@ -91,6 +91,7 @@ a:hover {
     display: flex;
     gap: 8px;
     margin-top: 8px;
+    justify-content: space-between;
 }
 
 .branding-signup,
