@@ -374,10 +374,10 @@ a:hover {
     font-weight: 600;
 }
 
-/* App Download Widget */
+/* CTA Widget */
 .app-download-widget {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    padding: 40px 0;
+    background: #1a73e8;
+    padding: 50px 0;
     margin-top: 40px;
 }
 
@@ -387,8 +387,15 @@ a:hover {
 }
 
 .app-download-widget h3 {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.widget-sub {
+    font-size: 1rem;
+    opacity: 0.88;
+    margin-bottom: 28px;
 }
 
 .widget-buttons {
@@ -396,28 +403,33 @@ a:hover {
     flex-wrap: wrap;
     gap: 14px;
     justify-content: center;
-    margin-top: 10px;
+    align-items: center;
 }
 
 .btn-download {
     background: #fff;
-    color: #667eea;
+    color: #1a73e8;
     font-size: 1rem;
-    padding: 12px 28px;
+    font-weight: 700;
+    padding: 12px 32px;
+    border-radius: 6px;
 }
 
 .btn-download:hover {
-    background: #f0f0f0;
+    background: #e8f0fe;
+    color: #1a73e8;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .btn-signin {
     background: transparent;
     color: #fff;
     font-size: 1rem;
-    padding: 12px 28px;
-    border: 2px solid #fff;
+    font-weight: 700;
+    padding: 12px 32px;
+    border: 2px solid rgba(255,255,255,0.85);
+    border-radius: 6px;
 }
 
 .btn-signin:hover {
@@ -430,9 +442,13 @@ a:hover {
     background: #25D366;
     color: #fff;
     font-size: 1rem;
-    padding: 12px 28px;
+    font-weight: 700;
+    padding: 12px 32px;
+    border-radius: 6px;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
 .btn-whatsapp:hover {
@@ -444,16 +460,54 @@ a:hover {
 
 /* Footer */
 .site-footer {
-    background: #1f2937;
+    background: #0f172a;
     color: #fff;
-    padding: 30px 0;
-    text-align: center;
-    margin-top: 60px;
+    padding: 40px 0 28px;
+    margin-top: 0;
 }
 
-.copyright {
-    font-size: 0.95rem;
-    color: #d1d5db;
+.footer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.footer-brand .footer-logo {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #1a73e8;
+    letter-spacing: 1px;
+}
+
+.footer-brand p {
+    color: #94a3b8;
+    font-size: 0.9rem;
+    margin-top: 4px;
+}
+
+.footer-divider {
+    width: 60px;
+    height: 2px;
+    background: #1a73e8;
+    border-radius: 2px;
+}
+
+.footer-copy p {
+    color: #cbd5e1;
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+.footer-copy strong {
+    color: #fff;
+}
+
+.footer-tagline {
+    color: #64748b !important;
+    font-size: 0.8rem !important;
+    margin-top: 4px;
 }
 
 /* Activations Modal */

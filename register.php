@@ -287,7 +287,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <!-- Footer -->
     <footer class="site-footer">
         <div class="container">
-            <p class="copyright">Copyright <?php echo date('Y'); ?> &mdash; StarHela. All rights reserved.</p>
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <span class="footer-logo">StarHela</span>
+                    <p>Turn your online time into real earnings.</p>
+                </div>
+                <div class="footer-divider"></div>
+                <div class="footer-copy">
+                    <p>&copy; 2026 <strong>samcodings</strong>. All Rights Reserved by <strong>SamDev</strong>.</p>
+                    <p class="footer-tagline">Designed &amp; Built with ❤️ by SamDev</p>
+                </div>
+            </div>
         </div>
     </footer>
 
