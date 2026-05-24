@@ -391,17 +391,55 @@ a:hover {
     margin-bottom: 20px;
 }
 
+.widget-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
 .btn-download {
     background: #fff;
     color: #667eea;
-    font-size: 1.1rem;
-    padding: 14px 32px;
+    font-size: 1rem;
+    padding: 12px 28px;
 }
 
 .btn-download:hover {
     background: #f0f0f0;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.btn-signin {
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+    padding: 12px 28px;
+    border: 2px solid #fff;
+}
+
+.btn-signin:hover {
+    background: rgba(255,255,255,0.15);
+    transform: translateY(-2px);
+    color: #fff;
+}
+
+.btn-whatsapp {
+    background: #25D366;
+    color: #fff;
+    font-size: 1rem;
+    padding: 12px 28px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-whatsapp:hover {
+    background: #1ebe5d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37,211,102,0.4);
+    color: #fff;
 }
 
 /* Footer */
