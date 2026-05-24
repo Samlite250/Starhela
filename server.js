@@ -127,29 +127,29 @@ const countries = {
         code: 'RW',
         flag: '🇷🇼',
         info: {
-            description: '<p>Welcome to StarHela Rwanda! Join thousands of Rwandans earning money online through simple digital tasks. Our platform is designed specifically for users in Rwanda to maximize earning potential.</p>',
+            description: '<p><strong>StarHela Rwanda 🇷🇼 — Your Ultimate Guide to Online Earnings</strong></p><p>Register today with an activation fee of only <strong>RWF 6,000</strong> and start earning through multiple income streams. Get a <strong>Welcome Bonus of RWF 3,600 + Free Casino Spin</strong> on joining!</p>',
             opportunities: [
-                'Watch TikTok and YouTube videos - Earn per view',
-                'Complete surveys and share your opinions',
-                'Click on advertisements and get paid',
-                'Write blog posts and articles',
-                'Access Forex trading tutorials',
-                'Play chess and draughts for rewards',
-                'Participate in daily tasks and challenges'
+                '📺 Watch & Earn — Get paid for watching YouTube, TikTok, Facebook & Instagram Reels',
+                '🧠 Survey Questions — Answer questions correctly and earn rewards',
+                '📢 Advert Clicks — Earn by engaging with ads on the platform',
+                '♟️ Games (Chess & Draughts) — Compete and earn based on performance',
+                '🎰 Free Spin & Win Casino — Enjoy free spins and bet to win up to X10 your stake',
+                '🎨 Digital Marketplace — Buy and explore digital art and online assets',
+                '💼 Affiliate Marketing — Earn commissions across 3 levels'
             ],
             paymentMethods: [
-                'Mobile Money (MTN, Airtel)',
-                'Bank Transfer',
-                'PayPal',
-                'Bitcoin & Cryptocurrency'
+                'M-Pesa',
+                'Airtel Money',
+                'Bank Transfer (RWF)',
+                'Secure payments with reliable customer support'
             ],
             benefits: [
-                'Fast and reliable payments',
-                'Local currency support (RWF)',
-                'No investment required to start',
-                '24/7 customer support in Kinyarwanda',
-                'Community of Rwandan earners',
-                'Daily earning opportunities'
+                '🎁 Welcome Bonus: RWF 3,600 + Free Casino Spin on joining',
+                '💼 Affiliate Level 1: RWF 3,000 per referral',
+                '💼 Affiliate Level 2: RWF 1,700 per referral',
+                '💼 Affiliate Level 3: RWF 700 per referral',
+                '🏆 Weekly bonuses for top performers',
+                '💳 Secure & reliable payments in local currency (RWF)'
             ]
         }
     },
@@ -158,29 +158,29 @@ const countries = {
         code: 'BI',
         flag: '🇧🇮',
         info: {
-            description: '<p>StarHela Burundi offers you the opportunity to earn money online from anywhere in Burundi. Join our growing community of Burundian users.</p>',
+            description: '<p><strong>StarHela Burundi 🇧🇮 — Your Ultimate Guide to Online Earnings</strong></p><p>Register today with an activation fee of only <strong>BIF 26,000</strong> and start earning through multiple income streams. Get a <strong>Welcome Bonus of BIF 3,000 + Free Casino Spin</strong> on joining!</p>',
             opportunities: [
-                'Video watching tasks (TikTok, YouTube)',
-                'Online surveys and questionnaires',
-                'Ad clicking campaigns',
-                'Content creation and blogging',
-                'Educational content access',
-                'Gaming rewards (chess, draughts)',
-                'Referral commissions'
+                '📺 Watch & Earn — Get paid for watching YouTube, TikTok, Facebook & Instagram Reels',
+                '🧠 Survey Questions — Answer questions correctly and earn rewards',
+                '📢 Advert Clicks — Earn by engaging with ads on the platform',
+                '♟️ Games (Chess & Draughts) — Compete and earn based on performance',
+                '🎰 Free Spin & Win Casino — Enjoy free spins and bet to win up to X10 your stake',
+                '🎨 Digital Marketplace — Buy and explore digital art and online assets',
+                '💼 Affiliate Marketing — Earn commissions across 3 levels'
             ],
             paymentMethods: [
                 'Mobile Money (Lumicash, Ecocash)',
-                'Bank Transfer',
+                'Bank Transfer (BIF)',
                 'PayPal',
                 'Western Union'
             ],
             benefits: [
-                'Payments in local currency (BIF)',
-                'Low minimum withdrawal',
-                'No registration fees',
-                'French language support',
-                'Active Burundian community',
-                'Weekly payment processing'
+                '🎁 Welcome Bonus: BIF 3,000 + Free Casino Spin on joining',
+                '💼 Affiliate Level 1: BIF 4,000 per referral',
+                '💼 Affiliate Level 2: BIF 2,000 per referral',
+                '💼 Affiliate Level 3: BIF 700 per referral',
+                '🏆 Weekly bonuses for top performers',
+                '💳 Secure & reliable payments in local currency (BIF)'
             ]
         }
     },
@@ -189,15 +189,15 @@ const countries = {
         code: 'UG',
         flag: '🇺🇬',
         info: {
-            description: '<p>StarHela Uganda is your gateway to earning online income. Join thousands of Ugandans already making money through our platform.</p>',
+            description: '<p><strong>StarHela Uganda 🇺🇬 — Your Ultimate Guide to Online Earnings</strong></p><p>Register today with an activation fee of only <strong>UGX 19,500</strong> and start earning through multiple income streams. Get a <strong>Welcome Bonus of UGX 9,000 + Free Casino Spin</strong> on joining!</p>',
             opportunities: [
-                'Watch and earn from video content',
-                'Participate in paid surveys',
-                'Click ads and earn instantly',
-                'Create blog content',
-                'Learn Forex trading',
-                'Play games for rewards',
-                'Complete daily missions'
+                '📺 Watch & Earn — Get paid for watching YouTube, TikTok, Facebook & Instagram Reels',
+                '🧠 Survey Questions — Answer questions correctly and earn rewards',
+                '📢 Advert Clicks — Earn by engaging with ads on the platform',
+                '♟️ Games (Chess & Draughts) — Compete and earn based on performance',
+                '🎰 Free Spin & Win Casino — Enjoy free spins and bet to win up to X10 your stake',
+                '🎨 Digital Marketplace — Buy and explore digital art and online assets',
+                '💼 Affiliate Marketing — Earn commissions across 3 levels'
             ],
             paymentMethods: [
                 'Mobile Money (MTN, Airtel)',
@@ -206,12 +206,12 @@ const countries = {
                 'Cryptocurrency'
             ],
             benefits: [
-                'Ugandan shilling (UGX) support',
-                'Quick mobile money withdrawals',
-                'No startup costs',
-                '24/7 support',
-                'Large Ugandan user base',
-                'Multiple earning methods'
+                '🎁 Welcome Bonus: UGX 9,000 + Free Casino Spin on joining',
+                '💼 Affiliate Level 1: UGX 10,300 per referral',
+                '💼 Affiliate Level 2: UGX 5,000 per referral',
+                '💼 Affiliate Level 3: UGX 2,000 per referral',
+                '🏆 Weekly bonuses for top performers',
+                '💳 Secure & reliable payments in local currency (UGX)'
             ]
         }
     },
@@ -220,29 +220,29 @@ const countries = {
         code: 'GH',
         flag: '🇬🇭',
         info: {
-            description: '<p>Welcome to StarHela Ghana! Earn money online with tasks designed for Ghanaian users. Start your earning journey today.</p>',
+            description: '<p><strong>StarHela Ghana 🇬🇭 — Your Ultimate Guide to Online Earnings</strong></p><p>Register today with an activation fee of only <strong>GHC 95</strong> and start earning through multiple income streams. Get a <strong>Welcome Bonus of GHC 40 + Free Casino Spin</strong> on joining!</p>',
             opportunities: [
-                'Video streaming rewards',
-                'Survey participation',
-                'Advertisement clicking',
-                'Content writing',
-                'Trading education',
-                'Gaming activities',
-                'Affiliate marketing'
+                '📺 Watch & Earn — Get paid for watching YouTube, TikTok, Facebook & Instagram Reels',
+                '🧠 Survey Questions — Answer questions correctly and earn rewards',
+                '📢 Advert Clicks — Earn by engaging with ads on the platform',
+                '♟️ Games (Chess & Draughts) — Compete and earn based on performance',
+                '🎰 Free Spin & Win Casino — Enjoy free spins and bet to win up to X10 your stake',
+                '🎨 Digital Marketplace — Buy and explore digital art and online assets',
+                '💼 Affiliate Marketing — Earn commissions across 3 levels'
             ],
             paymentMethods: [
                 'Mobile Money (MTN, Vodafone, AirtelTigo)',
-                'Bank Transfer (GHS)',
+                'Bank Transfer (GHC)',
                 'PayPal',
                 'Bitcoin'
             ],
             benefits: [
-                'Ghana cedis (GHS) payments',
-                'Instant mobile money transfers',
-                'Free to join',
-                'English language platform',
-                'Active Ghanaian community',
-                'Regular bonuses'
+                '🎁 Welcome Bonus: GHC 40 + Free Casino Spin on joining',
+                '💼 Affiliate Level 1: GHC 40 per referral',
+                '💼 Affiliate Level 2: GHC 20 per referral',
+                '💼 Affiliate Level 3: GHC 10 per referral',
+                '🏆 Weekly bonuses for top performers',
+                '💳 Secure & reliable payments in local currency (GHC)'
             ]
         }
     },
@@ -251,15 +251,15 @@ const countries = {
         code: 'CM',
         flag: '🇨🇲',
         info: {
-            description: '<p>StarHela Cameroon brings earning opportunities to Cameroonian users. Make money online with flexible tasks.</p>',
+            description: '<p><strong>StarHela Cameroon 🇨🇲 — Your Ultimate Guide to Online Earnings</strong></p><p>Register today with an activation fee of only <strong>XAF 4,500</strong> and start earning through multiple income streams. Get a <strong>Welcome Bonus of XAF 2,000 + Free Casino Spin</strong> on joining!</p>',
             opportunities: [
-                'Watch videos and get paid',
-                'Complete online surveys',
-                'Click advertisements',
-                'Write and publish content',
-                'Access educational materials',
-                'Play rewarding games',
-                'Earn referral bonuses'
+                '📺 Watch & Earn — Get paid for watching YouTube, TikTok, Facebook & Instagram Reels',
+                '🧠 Survey Questions — Answer questions correctly and earn rewards',
+                '📢 Advert Clicks — Earn by engaging with ads on the platform',
+                '♟️ Games (Chess & Draughts) — Compete and earn based on performance',
+                '🎰 Free Spin & Win Casino — Enjoy free spins and bet to win up to X10 your stake',
+                '🎨 Digital Marketplace — Buy and explore digital art and online assets',
+                '💼 Affiliate Marketing — Earn commissions across 3 levels'
             ],
             paymentMethods: [
                 'Mobile Money (MTN, Orange)',
@@ -268,12 +268,12 @@ const countries = {
                 'Western Union'
             ],
             benefits: [
-                'CFA franc (XAF) support',
-                'Bilingual support (English/French)',
-                'No initial investment',
-                'Flexible earning schedule',
-                'Growing Cameroonian community',
-                'Reliable payment system'
+                '🎁 Welcome Bonus: XAF 2,000 + Free Casino Spin on joining',
+                '💼 Affiliate Level 1: XAF 2,000 per referral',
+                '💼 Affiliate Level 2: XAF 1,000 per referral',
+                '💼 Affiliate Level 3: XAF 500 per referral',
+                '🏆 Weekly bonuses for top performers',
+                '💳 Secure & reliable payments in local currency (XAF)'
             ]
         }
     },
@@ -282,15 +282,15 @@ const countries = {
         code: 'KE',
         flag: '🇰🇪',
         info: {
-            description: '<p>StarHela Kenya offers Kenyan users multiple ways to earn money online. Join our thriving community today.</p>',
+            description: '<p><strong>StarHela Kenya 🇰🇪 — Your Ultimate Guide to Online Earnings</strong></p><p>Register today with an activation fee of only <strong>KSH 550</strong> and start earning through multiple income streams. Get a <strong>Welcome Bonus of KSH 300 + Free Casino Spin</strong> on joining!</p>',
             opportunities: [
-                'Video watching rewards',
-                'Paid surveys',
-                'Ad clicking campaigns',
-                'Blog writing',
-                'Forex education',
-                'Game rewards',
-                'Task completion bonuses'
+                '📺 Watch & Earn — Get paid for watching YouTube, TikTok, Facebook & Instagram Reels',
+                '🧠 Survey Questions — Answer questions correctly and earn rewards',
+                '📢 Advert Clicks — Earn by engaging with ads on the platform',
+                '♟️ Games (Chess & Draughts) — Compete and earn based on performance',
+                '🎰 Free Spin & Win Casino — Enjoy free spins and bet to win up to X10 your stake',
+                '🎨 Digital Marketplace — Buy and explore digital art and online assets',
+                '💼 Affiliate Marketing — Earn commissions across 3 levels'
             ],
             paymentMethods: [
                 'M-Pesa',
@@ -299,12 +299,12 @@ const countries = {
                 'PayPal'
             ],
             benefits: [
-                'Kenyan shilling (KES) payments',
-                'Fast M-Pesa withdrawals',
-                'Zero registration fees',
-                'Swahili support available',
-                'Large Kenyan user network',
-                'Daily earning opportunities'
+                '🎁 Welcome Bonus: KSH 300 + Free Casino Spin on joining',
+                '💼 Affiliate Level 1: KSH 300 per referral',
+                '💼 Affiliate Level 2: KSH 150 per referral',
+                '💼 Affiliate Level 3: KSH 50 per referral',
+                '🏆 Weekly bonuses for top performers',
+                '💳 Secure & reliable payments via M-Pesa & Airtel Money'
             ]
         }
     },
@@ -313,15 +313,15 @@ const countries = {
         code: 'BW',
         flag: '🇧🇼',
         info: {
-            description: '<p>StarHela Botswana provides earning opportunities for users across Botswana. Start earning from home today.</p>',
+            description: '<p><strong>StarHela Botswana 🇧🇼 — Your Ultimate Guide to Online Earnings</strong></p><p>Register today with an activation fee of only <strong>BWP 100</strong> and start earning through multiple income streams. Get a <strong>Welcome Bonus of BWP 30 + Free Casino Spin</strong> on joining!</p>',
             opportunities: [
-                'Video content engagement',
-                'Survey participation',
-                'Advertisement interactions',
-                'Content creation',
-                'Educational content access',
-                'Gaming activities',
-                'Referral program'
+                '📺 Watch & Earn — Get paid for watching YouTube, TikTok, Facebook & Instagram Reels',
+                '🧠 Survey Questions — Answer questions correctly and earn rewards',
+                '📢 Advert Clicks — Earn by engaging with ads on the platform',
+                '♟️ Games (Chess & Draughts) — Compete and earn based on performance',
+                '🎰 Free Spin & Win Casino — Enjoy free spins and bet to win up to X10 your stake',
+                '🎨 Digital Marketplace — Buy and explore digital art and online assets',
+                '💼 Affiliate Marketing — Earn commissions across 3 levels'
             ],
             paymentMethods: [
                 'Bank Transfer (BWP)',
@@ -330,12 +330,12 @@ const countries = {
                 'Cryptocurrency'
             ],
             benefits: [
-                'Botswana pula (BWP) support',
-                'Reliable payment processing',
-                'Free registration',
-                'English language platform',
-                'Dedicated support team',
-                'Flexible earning options'
+                '🎁 Welcome Bonus: BWP 30 + Free Casino Spin on joining',
+                '💼 Affiliate Level 1: BWP 48 per referral',
+                '💼 Affiliate Level 2: BWP 20 per referral',
+                '💼 Affiliate Level 3: BWP 10 per referral',
+                '🏆 Weekly bonuses for top performers',
+                '💳 Secure & reliable payments in local currency (BWP)'
             ]
         }
     },
@@ -344,15 +344,15 @@ const countries = {
         code: 'MW',
         flag: '🇲🇼',
         info: {
-            description: '<p>Welcome to StarHela Malawi! Earn money online through various tasks designed for Malawian users.</p>',
+            description: '<p><strong>StarHela Malawi 🇲🇼 — Your Ultimate Guide to Online Earnings</strong></p><p>Register today with an activation fee of only <strong>MK 12,500</strong> and start earning through multiple income streams. Get a <strong>Welcome Bonus of MK 3,000 + Free Casino Spin</strong> on joining!</p>',
             opportunities: [
-                'Watch videos and earn',
-                'Complete paid surveys',
-                'Click on ads',
-                'Write blog posts',
-                'Access training materials',
-                'Play games for rewards',
-                'Complete daily tasks'
+                '📺 Watch & Earn — Get paid for watching YouTube, TikTok, Facebook & Instagram Reels',
+                '🧠 Survey Questions — Answer questions correctly and earn rewards',
+                '📢 Advert Clicks — Earn by engaging with ads on the platform',
+                '♟️ Games (Chess & Draughts) — Compete and earn based on performance',
+                '🎰 Free Spin & Win Casino — Enjoy free spins and bet to win up to X10 your stake',
+                '🎨 Digital Marketplace — Buy and explore digital art and online assets',
+                '💼 Affiliate Marketing — Earn commissions across 3 levels'
             ],
             paymentMethods: [
                 'Airtel Money',
@@ -361,12 +361,12 @@ const countries = {
                 'PayPal'
             ],
             benefits: [
-                'Malawian kwacha (MWK) payments',
-                'Mobile money withdrawals',
-                'No startup fees',
-                'Local support team',
-                'Growing Malawian community',
-                'Multiple earning streams'
+                '🎁 Welcome Bonus: MK 3,000 + Free Casino Spin on joining',
+                '💼 Affiliate Level 1: MK 5,000 per referral',
+                '💼 Affiliate Level 2: MK 2,000 per referral',
+                '💼 Affiliate Level 3: MK 1,000 per referral',
+                '🏆 Weekly bonuses for top performers',
+                '💳 Secure & reliable payments in local currency (MWK)'
             ]
         }
     },
@@ -375,15 +375,15 @@ const countries = {
         code: 'ZM',
         flag: '🇿🇲',
         info: {
-            description: '<p>StarHela Zambia connects Zambian users with online earning opportunities. Start making money today.</p>',
+            description: '<p><strong>StarHela Zambia 🇿🇲 — Your Ultimate Guide to Online Earnings</strong></p><p>Register today with an activation fee of only <strong>ZK 125</strong> and start earning through multiple income streams. Get a <strong>Welcome Bonus of ZK 30 + Free Casino Spin</strong> on joining!</p>',
             opportunities: [
-                'Video streaming rewards',
-                'Survey completion',
-                'Ad clicking tasks',
-                'Content writing',
-                'Educational resources',
-                'Gaming rewards',
-                'Bonus tasks'
+                '📺 Watch & Earn — Get paid for watching YouTube, TikTok, Facebook & Instagram Reels',
+                '🧠 Survey Questions — Answer questions correctly and earn rewards',
+                '📢 Advert Clicks — Earn by engaging with ads on the platform',
+                '♟️ Games (Chess & Draughts) — Compete and earn based on performance',
+                '🎰 Free Spin & Win Casino — Enjoy free spins and bet to win up to X10 your stake',
+                '🎨 Digital Marketplace — Buy and explore digital art and online assets',
+                '💼 Affiliate Marketing — Earn commissions across 3 levels'
             ],
             paymentMethods: [
                 'Mobile Money (MTN, Airtel)',
@@ -392,12 +392,12 @@ const countries = {
                 'Cryptocurrency'
             ],
             benefits: [
-                'Zambian kwacha (ZMW) support',
-                'Quick mobile money transfers',
-                'Free to join',
-                'English language platform',
-                'Active Zambian community',
-                'Regular earning opportunities'
+                '🎁 Welcome Bonus: ZK 30 + Free Casino Spin on joining',
+                '💼 Affiliate Level 1: ZK 50 per referral',
+                '💼 Affiliate Level 2: ZK 30 per referral',
+                '💼 Affiliate Level 3: ZK 20 per referral',
+                '🏆 Weekly bonuses for top performers',
+                '💳 Secure & reliable payments in local currency (ZMW)'
             ]
         }
     },
@@ -406,15 +406,15 @@ const countries = {
         code: 'NG',
         flag: '🇳🇬',
         info: {
-            description: '<p>StarHela Nigeria is the leading platform for Nigerians to earn money online. Join millions of users earning daily.</p>',
+            description: '<p><strong>StarHela Nigeria 🇳🇬 — Your Ultimate Guide to Online Earnings</strong></p><p>Register today with an activation fee of only <strong>NGN 9,000</strong> and start earning through multiple income streams. Get a <strong>Welcome Bonus of NGN 4,000 + Free Casino Spin</strong> on joining!</p>',
             opportunities: [
-                'Watch videos and get paid',
-                'Participate in surveys',
-                'Click advertisements',
-                'Create blog content',
-                'Learn Forex trading',
-                'Play chess and draughts',
-                'Complete various tasks'
+                '📺 Watch & Earn — Get paid for watching YouTube, TikTok, Facebook & Instagram Reels',
+                '🧠 Survey Questions — Answer questions correctly and earn rewards',
+                '📢 Advert Clicks — Earn by engaging with ads on the platform',
+                '♟️ Games (Chess & Draughts) — Compete and earn based on performance',
+                '🎰 Free Spin & Win Casino — Enjoy free spins and bet to win up to X10 your stake',
+                '🎨 Digital Marketplace — Buy and explore digital art and online assets',
+                '💼 Affiliate Marketing — Earn commissions across 3 levels'
             ],
             paymentMethods: [
                 'Bank Transfer (NGN)',
@@ -423,12 +423,12 @@ const countries = {
                 'Bitcoin & Crypto'
             ],
             benefits: [
-                'Nigerian naira (NGN) payments',
-                'Instant bank transfers',
-                'No registration fees',
-                'Large Nigerian community',
-                '24/7 customer support',
-                'High earning potential'
+                '🎁 Welcome Bonus: NGN 4,000 + Free Casino Spin on joining',
+                '💼 Affiliate Level 1: NGN 4,500 per referral',
+                '💼 Affiliate Level 2: NGN 2,000 per referral',
+                '💼 Affiliate Level 3: NGN 700 per referral',
+                '🏆 Weekly bonuses for top performers',
+                '💳 Secure & reliable payments in local currency (NGN)'
             ]
         }
     },
@@ -437,15 +437,15 @@ const countries = {
         code: 'TZ',
         flag: '🇹🇿',
         info: {
-            description: '<p>StarHela Tanzania offers Tanzanian users the opportunity to earn money online from anywhere. Join today!</p>',
+            description: '<p><strong>StarHela Tanzania 🇹🇿 — Your Ultimate Guide to Online Earnings</strong></p><p>Register today with an activation fee of only <strong>TSh 11,000</strong> and start earning through multiple income streams. Get a <strong>Welcome Bonus of TSh 6,000 + Free Casino Spin</strong> on joining!</p>',
             opportunities: [
-                'Video watching tasks',
-                'Online surveys',
-                'Ad clicking',
-                'Content creation',
-                'Educational content',
-                'Gaming rewards',
-                'Daily challenges'
+                '📺 Watch & Earn — Get paid for watching YouTube, TikTok, Facebook & Instagram Reels',
+                '🧠 Survey Questions — Answer questions correctly and earn rewards',
+                '📢 Advert Clicks — Earn by engaging with ads on the platform',
+                '♟️ Games (Chess & Draughts) — Compete and earn based on performance',
+                '🎰 Free Spin & Win Casino — Enjoy free spins and bet to win up to X10 your stake',
+                '🎨 Digital Marketplace — Buy and explore digital art and online assets',
+                '💼 Affiliate Marketing — Earn commissions across 3 levels'
             ],
             paymentMethods: [
                 'M-Pesa Tanzania',
@@ -454,12 +454,12 @@ const countries = {
                 'Bank Transfer (TZS)'
             ],
             benefits: [
-                'Tanzanian shilling (TZS) support',
-                'Fast mobile money payments',
-                'Free registration',
-                'Swahili language support',
-                'Active Tanzanian community',
-                'Multiple payment options'
+                '🎁 Welcome Bonus: TSh 6,000 + Free Casino Spin on joining',
+                '💼 Affiliate Level 1: TSh 5,000 per referral',
+                '💼 Affiliate Level 2: TSh 3,000 per referral',
+                '💼 Affiliate Level 3: TSh 1,500 per referral',
+                '🏆 Weekly bonuses for top performers',
+                '💳 Secure & reliable payments in local currency (TZS)'
             ]
         }
     },
