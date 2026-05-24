@@ -60,6 +60,38 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.appendChild(script);
     }
 
+    // Activations Modal
+    const activationsBtn = document.getElementById('activationsBtn');
+    const activationsModal = document.getElementById('activationsModal');
+    const modalClose = document.getElementById('modalClose');
+
+    if (activationsBtn && activationsModal) {
+        activationsBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            activationsModal.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        });
+
+        modalClose.addEventListener('click', function() {
+            activationsModal.classList.remove('open');
+            document.body.style.overflow = '';
+        });
+
+        activationsModal.addEventListener('click', function(e) {
+            if (e.target === activationsModal) {
+                activationsModal.classList.remove('open');
+                document.body.style.overflow = '';
+            }
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && activationsModal.classList.contains('open')) {
+                activationsModal.classList.remove('open');
+                document.body.style.overflow = '';
+            }
+        });
+    }
+
     // Add animation on scroll
     const observerOptions = {
         threshold: 0.1,

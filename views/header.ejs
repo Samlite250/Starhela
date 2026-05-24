@@ -29,6 +29,7 @@
                     </button>
                     <ul class="nav-menu">
                         <li><a href="/" class="<%= typeof page !== 'undefined' && page === 'home' ? 'active' : '' %>">Home</a></li>
+                        <li><a href="#" id="activationsBtn">Activations</a></li>
                         <li class="country-dropdown">
                             <a href="#" class="countries-toggle">
                                 Countries
@@ -57,3 +58,37 @@
             </div>
         </div>
     </header>
+
+<!-- Activations Modal -->
+<div id="activationsModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-box">
+        <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+        <h2 id="modalTitle" class="modal-title">STARHELA AGENCIES ACTIVATION FEES</h2>
+        <div class="modal-table-wrap">
+            <table class="activation-table">
+                <thead>
+                    <tr><th>#</th><th>Country</th><th>Fee</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Kenya 🇰🇪</td><td>KSH 550</td></tr>
+                    <tr><td>2</td><td>Tanzania 🇹🇿</td><td>TZS 11,000</td></tr>
+                    <tr><td>3</td><td>Uganda 🇺🇬</td><td>UGX 19,500</td></tr>
+                    <tr><td>4</td><td>Rwanda 🇷🇼</td><td>RWF 6,000</td></tr>
+                    <tr><td>5</td><td>Nigeria 🇳🇬</td><td>NGN 9,000</td></tr>
+                    <tr><td>6</td><td>Burundi 🇧🇮</td><td>BIF 25,000</td></tr>
+                    <tr><td>7</td><td>Zambia 🇿🇲</td><td>ZK 125</td></tr>
+                    <tr><td>8</td><td>Malawi 🇲🇼</td><td>MK 26,000</td></tr>
+                    <tr><td>9</td><td>Ivory Coast 🇨🇮</td><td>XOF 4,500</td></tr>
+                    <tr><td>10</td><td>Senegal 🇸🇳</td><td>XOF 4,500</td></tr>
+                    <tr><td>11</td><td>Botswana 🇧🇼</td><td>BWP 100</td></tr>
+                    <tr><td>12</td><td>South Africa 🇿🇦</td><td>ZAR 70</td></tr>
+                    <tr><td>13</td><td>Ghana 🇬🇭</td><td>GHC 95</td></tr>
+                    <tr><td>14</td><td>Cameroon 🇨🇲</td><td>XAF 4,500</td></tr>
+                    <tr><td>15</td><td>West Africa 🌍</td><td>XOF 4,500</td></tr>
+                    <tr><td>16</td><td>South Sudan 🇸🇸</td><td>SSP 20,000</td></tr>
+                    <tr><td>17</td><td>Others 🎌</td><td>USD 8</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
