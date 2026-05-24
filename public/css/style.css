@@ -87,6 +87,7 @@ a:hover {
     flex: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .menu-toggle {
@@ -110,6 +111,7 @@ a:hover {
     display: flex;
     list-style: none;
     gap: 30px;
+    align-items: center;
 }
 
 .nav-menu li a {
@@ -183,6 +185,8 @@ a:hover {
 /* Header CTA */
 .header-cta {
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
 }
 
 .btn {
