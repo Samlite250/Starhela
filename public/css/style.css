@@ -91,21 +91,19 @@ a:hover {
     display: flex;
     gap: 8px;
     margin-top: 8px;
-    justify-content: space-between;
 }
 
 .branding-signup,
 .branding-signup:link,
 .branding-signup:visited {
-    flex: 1;
-    display: block;
+    display: inline-block;
     font-size: 0.88rem;
     font-weight: 700;
     color: #1a73e8 !important;
     background: #e8f0fe;
     border: 1.5px solid #c5d8fc;
     border-radius: 6px;
-    padding: 7px 0;
+    padding: 7px 24px;
     text-align: center;
     text-decoration: none;
     transition: background 0.2s ease, color 0.2s ease;
@@ -120,17 +118,17 @@ a:hover {
 .branding-signin,
 .branding-signin:link,
 .branding-signin:visited {
-    flex: 1;
-    display: block;
+    display: inline-block;
     font-size: 0.88rem;
     font-weight: 700;
     color: #fff !important;
     background: #16a34a;
     border: 1.5px solid #15803d;
     border-radius: 6px;
-    padding: 7px 0;
+    padding: 7px 24px;
     text-align: center;
     text-decoration: none;
+    margin-left: auto;
     transition: background 0.2s ease;
 }
 
