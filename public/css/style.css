@@ -87,6 +87,21 @@ a:hover {
     color: #666;
 }
 
+.branding-signup {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #1a73e8;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color 0.2s ease;
+}
+
+.branding-signup:hover {
+    color: #0d47a1;
+}
+
 /* Navigation */
 .main-navigation {
     display: flex;
