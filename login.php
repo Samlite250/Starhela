@@ -190,7 +190,7 @@
                 </div>
 
                 <div class="signup-link">
-                    Don't have an account? <a href="register.php?ref=samkiliswa">Sign up here</a>
+                    Don't have an account? <a href="https://starhela.com/register.php?ref=Mami250">Sign up here</a>
                 </div>
             </div>
         </div>
