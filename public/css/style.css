@@ -114,36 +114,31 @@ a:hover {
     align-items: center;
 }
 
-.nav-menu li a {
+/* Top-level nav links only — excludes submenu */
+.nav-menu > li > a {
+    display: inline-block;
     font-weight: 600;
     font-size: 0.95rem;
     color: #1a73e8;
-    padding: 8px 20px;
-    border-radius: 6px;
+    padding: 8px 22px;
+    border-radius: 20px;
     background: #e8f0fe;
-    border-bottom: 2px solid transparent;
+    border: 1.5px solid #c5d8fc;
     transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
     letter-spacing: 0.2px;
     white-space: nowrap;
 }
 
-.nav-menu li a:hover {
-    color: #0d47a1;
-    background: #d2e3fc;
-    border-bottom-color: #1a73e8;
+.nav-menu > li > a:hover {
+    color: #fff;
+    background: #1a73e8;
+    border-color: #1a73e8;
 }
 
-.nav-menu li a.active {
-    color: #0d47a1;
-    background: #d2e3fc;
-    border-bottom-color: #1a73e8;
-}
-
-.countries-toggle,
-#activationsBtn {
-    font-weight: 600;
-    font-size: 0.95rem;
-    color: #1a73e8 !important;
+.nav-menu > li > a.active {
+    color: #fff;
+    background: #1a73e8;
+    border-color: #1a73e8;
 }
 
 /* Country Dropdown */
