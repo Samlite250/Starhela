@@ -98,7 +98,9 @@ a:hover {
     background: #e8f0fe;
     border: 1.5px solid #c5d8fc;
     border-radius: 6px;
-    padding: 8px 36px;
+    padding: 7px 18px;
+    width: 85px;
+    text-align: center;
     text-decoration: none;
     transition: background 0.2s ease, color 0.2s ease;
 }
@@ -170,6 +172,8 @@ a:hover {
     border: 1.5px solid #c5d8fc;
     transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
     white-space: nowrap;
+    width: 85px;
+    text-align: center;
 }
 
 .nav-menu > li > a:hover {
