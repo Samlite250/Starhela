@@ -52,7 +52,7 @@ $post = [
         <h3>Join Our Community</h3>
         <p>Thousands of users are already earning with StarHela. Join our growing community and start your journey to financial freedom today. Whether you want to earn extra income or build a sustainable online business, StarHela provides the tools and opportunities you need.</p>
 
-        <p><strong>Ready to start earning?</strong> <a href="register.php?ref=Mami250">Sign up now</a> and begin your StarHela journey!</p>
+        <p><strong>Ready to start earning?</strong> <a href="register.php?ref=samkiliswa">Sign up now</a> and begin your StarHela journey!</p>
     '
 ];
 ?>
@@ -193,7 +193,7 @@ $post = [
                     </ul>
                 </nav>
                 <div class="header-cta">
-                    <a href="register.php?ref=Mami250" class="btn btn-primary">Sign Up StarHela</a>
+                    <a href="register.php?ref=samkiliswa" class="btn btn-primary">Sign Up StarHela</a>
                 </div>
             </div>
         </div>
