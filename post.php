@@ -14,7 +14,9 @@ $post = [
     'category' => ($post_id % 2 == 0) ? 'StarHela' : 'Star Hela',
     'image' => 'assets/images/' . $post_images[($post_id % 16) + 1],
     'date' => date('F j, Y'),
-    'content' => '
+    'content' => ($post_id === 330)
+        ? '<p>StarHela is an online platform built to help users earn money through simple digital activities and interactive content. It brings together several earning methods, including watching short-form videos on TikTok and YouTube, viewing social media reels, clicking advertisements, writing blog articles, answering trivia questions, and playing online games such as chess and draughts. Users can also grow their income through referrals, earning commissions for inviting new members, along with bonus features like free spins and welcome rewards. Beyond entertainment-based earnings, StarHela offers learning resources such as Forex tutorials and e-books to support users in developing financial and trading knowledge. With its user-friendly interface and mobile accessibility, StarHela is designed to turn everyday online engagement into flexible earning opportunities.</p>'
+        : '
         <p>StarHela is a comprehensive digital platform designed to help users earn money through various online activities. Our platform offers multiple ways to generate income while engaging with content you enjoy.</p>
 
         <h3>Earning Opportunities</h3>
@@ -50,9 +52,7 @@ $post = [
         </ul>
 
         <h3>Join Our Community</h3>
-        <p>Thousands of users are already earning with StarHela. Join our growing community and start your journey to financial freedom today. Whether you want to earn extra income or build a sustainable online business, StarHela provides the tools and opportunities you need.</p>
-
-        <p><strong>Ready to start earning?</strong> <a href="https://starhela.com/register.php?ref=Mami250">Sign up now</a> and begin your StarHela journey!</p>
+        <p>Thousands of users are already earning with StarHela. Join our growing community and start your journey to financial freedom today.</p>
     '
 ];
 ?>
