@@ -462,6 +462,161 @@ const countries = {
                 'Multiple payment options'
             ]
         }
+    },
+    ivorycoast: {
+        name: 'Ivory Coast',
+        code: 'CI',
+        flag: '🇨🇮',
+        info: {
+            description: '<p>StarHela Ivory Coast brings online earning opportunities to users across Côte d\'Ivoire. Start earning today!</p>',
+            opportunities: [
+                'Video watching rewards',
+                'Online surveys',
+                'Ad clicking tasks',
+                'Content creation',
+                'Educational resources',
+                'Gaming rewards',
+                'Referral bonuses'
+            ],
+            paymentMethods: [
+                'Mobile Money (MTN, Orange, Moov)',
+                'Bank Transfer (XOF)',
+                'PayPal',
+                'Western Union'
+            ],
+            benefits: [
+                'CFA franc (XOF) payments',
+                'Fast mobile money withdrawals',
+                'Free registration',
+                'French language support',
+                'Active Ivorian community',
+                'Multiple earning streams'
+            ]
+        }
+    },
+    senegal: {
+        name: 'Senegal',
+        code: 'SN',
+        flag: '🇸🇳',
+        info: {
+            description: '<p>StarHela Senegal connects Senegalese users with flexible online earning opportunities. Join and start earning!</p>',
+            opportunities: [
+                'Video streaming rewards',
+                'Paid surveys',
+                'Ad clicking campaigns',
+                'Blog writing',
+                'Educational content',
+                'Gaming activities',
+                'Affiliate marketing'
+            ],
+            paymentMethods: [
+                'Mobile Money (Orange, Free, Wave)',
+                'Bank Transfer (XOF)',
+                'PayPal',
+                'Western Union'
+            ],
+            benefits: [
+                'CFA franc (XOF) support',
+                'Instant mobile money transfers',
+                'No startup fees',
+                'French language platform',
+                'Growing Senegalese community',
+                'Daily earning opportunities'
+            ]
+        }
+    },
+    southafrica: {
+        name: 'South Africa',
+        code: 'ZA',
+        flag: '🇿🇦',
+        info: {
+            description: '<p>StarHela South Africa offers South Africans multiple ways to earn money online. Join our thriving community today!</p>',
+            opportunities: [
+                'Video watching tasks',
+                'Online surveys',
+                'Advertisement clicking',
+                'Content writing',
+                'Forex education',
+                'Gaming rewards',
+                'Referral program'
+            ],
+            paymentMethods: [
+                'Bank Transfer (ZAR)',
+                'PayPal',
+                'SnapScan / Zapper',
+                'Cryptocurrency'
+            ],
+            benefits: [
+                'South African rand (ZAR) payments',
+                'Reliable bank transfers',
+                'Free to join',
+                'English language platform',
+                'Large South African community',
+                'High earning potential'
+            ]
+        }
+    },
+    southsudan: {
+        name: 'South Sudan',
+        code: 'SS',
+        flag: '🇸🇸',
+        info: {
+            description: '<p>StarHela South Sudan provides earning opportunities for users across South Sudan. Start your online income journey today!</p>',
+            opportunities: [
+                'Video watching rewards',
+                'Survey participation',
+                'Ad clicking tasks',
+                'Content creation',
+                'Educational resources',
+                'Gaming activities',
+                'Referral bonuses'
+            ],
+            paymentMethods: [
+                'Mobile Money',
+                'Bank Transfer (SSP)',
+                'PayPal',
+                'Western Union'
+            ],
+            benefits: [
+                'South Sudanese pound (SSP) support',
+                'Flexible earning schedule',
+                'Free registration',
+                'Dedicated support team',
+                'Growing community',
+                'Multiple income streams'
+            ]
+        }
+    },
+    drcongo: {
+        name: 'DR Congo',
+        code: 'CD',
+        flag: '🇨🇩',
+        info: {
+            description: '<p>StarHela DR Congo opens doors for Congolese users to earn money online through simple digital tasks. Join today!</p>',
+            opportunities: [
+                'Video watching tasks',
+                'Online surveys',
+                'Ad clicking',
+                'Content creation',
+                'Forex tutorials',
+                'Gaming rewards',
+                'Daily challenges'
+            ],
+            paymentMethods: [
+                'Mobile Money (M-Pesa, Airtel)',
+                'Bank Transfer (CDF)',
+                'PayPal',
+                'Western Union'
+            ],
+            benefits: [
+                'Congolese franc (CDF) payments',
+                'Fast mobile money withdrawals',
+                'No registration fees',
+                'French language support',
+                'Active Congolese community',
+                'Multiple earning methods'
+            ]
+        }
     }
 };
 
